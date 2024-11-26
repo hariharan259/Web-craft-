@@ -21,10 +21,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Global Sites</h3>
             <ul className="text-sm space-y-2">
-              <li><a href="#" className="hover:text-red-300">India</a></li>
-              <li><a href="#" className="hover:text-red-300">Singapore</a></li>
-              <li><a href="#" className="hover:text-red-300">Malaysia</a></li>
-              <li><a href="#" className="hover:text-red-300">Indonesia</a></li>
+              <li><a href="#" className="hover:text-red-300">VSB-webcraft.in</a></li>
+              <li><a href="#" className="hover:text-red-300">harx_txz.in</a></li>
+              <li><a href="#" className="hover:text-red-300">redbus@hari.in</a></li>
+              <li><a href="#" className="hover:text-red-300">redbus•hari.in</a></li>
             </ul>
           </div>
           <div>
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-red-700 text-center text-sm">
-          <p>&copy; 2023 RedBus Clone. All rights reserved.</p>
+          <p>&copy; 2023 RedBus.hari-VSBian. web craft//All rights reserved.</p>
         </div>
       </div>
     </footer>
