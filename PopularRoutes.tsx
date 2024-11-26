@@ -1,10 +1,10 @@
 import { ArrowRight } from 'lucide-react'
 
 const routes = [
-  { from: 'New York', to: 'Washington D.C.', price: '$25' },
-  { from: 'Los Angeles', to: 'San Francisco', price: '$35' },
-  { from: 'Chicago', to: 'Detroit', price: '$30' },
-  { from: 'Miami', to: 'Orlando', price: '$20' },
+  { from:'coimbatore', to: 'chennai', price: '₹1000' },
+  { from: 'karur', to: 'coimbatore', price: '₹500' },
+  { from: 'vellakovil', to: 'karur', price: '₹300' },
+  { from: 'trichy', to: 'vellakovil', price: '₹600' },
 ]
 
 export default function PopularRoutes() {
@@ -25,7 +25,7 @@ export default function PopularRoutes() {
               </div>
               <div className="text-2xl font-bold text-red-600">{route.price}</div>
               <button className="mt-4 w-full bg-gradient-to-r from-red-600 to-red-800 text-white py-2 px-4 rounded-md hover:from-red-700 hover:to-red-900 transition duration-300 ease-in-out">
-                Book Now
+                Book Now✨
               </button>
             </div>
           ))}
