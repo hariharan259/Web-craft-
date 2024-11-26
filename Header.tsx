@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2 text-2xl font-bold">
           <Bus size={32} />
-          <span>RedBus Clone</span>
+          <span>RedBus.hari</span>
         </Link>
         <nav>
           <ul className="flex space-x-6">
